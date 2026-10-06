@@ -1,0 +1,16 @@
+{
+  "name": "Modeldon · TP SQLite",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "onCreateCommand": "sudo apt-get update && sudo apt-get install -y --no-install-recommends sqlite3 && sudo rm -rf /var/lib/apt/lists/*",
+  "postCreateCommand": "sqlite3 --version",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "qwtel.sqlite-viewer"
+      ]
+    }
+  },
+  "hostRequirements": {
+    "cpus": 2
+  }
+}
