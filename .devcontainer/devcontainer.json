@@ -6,7 +6,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "qwtel.sqlite-viewer"
+        "cweijan.vscode-database-client2"
       ]
     }
   },

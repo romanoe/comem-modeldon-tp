@@ -1,6 +1,6 @@
 # Modélisation de Données · environnement de TP
 
-Environnement de travail du cours **Modélisation de Données** (HEIG-VD / COMEM+) : VS Code, SQLite et l'extension SQLite Viewer, déjà installés. Les slides du cours sont sur [comem-modeldon.onrender.com](https://comem-modeldon.onrender.com).
+Environnement de travail du cours **Modélisation de Données** (HEIG-VD / COMEM+) : VS Code, SQLite et l'extension Database Client, déjà installés. Les slides du cours sont sur [comem-modeldon.onrender.com](https://comem-modeldon.onrender.com).
 
 Aucune connaissance de Git n'est nécessaire.
 
@@ -44,7 +44,7 @@ sqlite> .tables
 sqlite> .quit
 ```
 
-4. Cliquer sur le fichier `.db` dans l'explorateur pour voir les tables
+4. Ouvrir le panneau **Database** de la barre latérale, cliquer sur **+**, choisir **SQLite** et sélectionner le fichier `.db` pour voir les tables
 
 ---
 
